@@ -1,4 +1,5 @@
 [build]
+builder = "nixpacks"
 installCommand = "uv sync --extra server --extra inference-cloud"
 
 [deploy]
